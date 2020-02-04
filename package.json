@@ -1,11 +1,11 @@
 {
-  "name": "nodeAltillyApi",
+  "name": "nodeHitbtcApi",
   "version": "0.0.1",
   "description": "This package file is for all the dependencies for the Node Altilly Helper",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/altilly/nodealtillyapi.git"
+    "url": "git+https://github.com/mrmikeo/nodehitbtcapi.git"
   },
   "dependencies": {
     "big.js": "^5.2.2",
