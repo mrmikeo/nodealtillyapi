@@ -1,15 +1,15 @@
-# Node Altilly API Helper
+# Node HitBTC API Helper
 
 [![https://telegram.me/@MrMike_O](https://img.shields.io/badge/💬%20Telegram-MrMike__O-blue.svg)](https://telegram.me/@MrMike_O)
 
 
-A Promised NodeJS Module for connecting with the Altilly Restful API
+A Promised NodeJS Module for connecting with the HitBTC Restful API (v2)
 
 
 ## Install via git
 ```
-git clone https://github.com/altilly/nodealtillyapi
-cd nodealtillyapi
+git clone https://github.com/mrmikeo/nodehitbtcapi
+cd nodehitbtcapi
 npm install
 
 node example.js
@@ -17,8 +17,8 @@ node example.js
 
 example.js:
 ```
-const altillyApi = require("./lib/altillyApi");
-const restapi = new altillyApi.default();
+const hitbtcApi = require("./lib/hitbtcApi");
+const restapi = new hitbtcApi.default();
 
 
 (async () => {
@@ -32,12 +32,12 @@ const restapi = new altillyApi.default();
 
 ## Install via npm
 ```
-npm install --save https://github.com/altilly/nodealtillyapi
+npm install --save https://github.com/mrmikeo/nodehitbtcapi
 ```
 
 ```
-const altillyApi = require("nodeAltillyApi");
-const restapi = new altillyApi.default();
+const htbtcApi = require("nodeHitbtcApi");
+const restapi = new hitbtcApi.default();
 
 
 (async () => {
